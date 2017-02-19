@@ -1,0 +1,105 @@
+/* App */
+.app {
+  max-width: 700px;
+  width: 100%;
+  margin: 40px auto; }
+  .app__title {
+    font-size: 42px;
+    text-align: center; }
+  .app__button {
+    border-radius: 5px;
+    background: #ef5350;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 8px 33px;
+    display: inline-block;
+    color: white; }
+    .app__button_save {
+      position: absolute;
+      right: 45px;
+      bottom: 11px; }
+  .app-contact-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-left: 0; }
+
+/* Contact card */
+.contact-card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px 20px;
+  box-sizing: border-box;
+  border: 2px solid #B2EBF2;
+  margin: 10px 0; }
+  .contact-card-left {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    box-sizing: border-box; }
+  .contact-card__input {
+    padding: 7px;
+    font-size: 18px;
+    border: 2px solid #B2EBF2;
+    border-radius: 2px;
+    margin: 0 0 12px;
+    box-sizing: border-box;
+    position: relative;
+    color: #636363;
+    width: 100%; }
+    .contact-card__input_large {
+      margin: 0 25px 12px; }
+  .contact-card__close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3; }
+    .contact-card__close:hover {
+      opacity: 1; }
+    .contact-card__close:after, .contact-card__close:before {
+      position: absolute;
+      left: 15px;
+      content: ' ';
+      height: 22px;
+      width: 2px;
+      background-color: #333; }
+    .contact-card__close:before {
+      -webkit-transform: rotate(45deg);
+              transform: rotate(45deg); }
+    .contact-card__close:after {
+      -webkit-transform: rotate(-45deg);
+              transform: rotate(-45deg); }
+
+/* Search bar */
+.search-input {
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 16px;
+  padding-left: 29px;
+  padding-bottom: 16px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 4px solid #BDBDBD;
+  -webkit-transition: border-bottom 0.3s linear;
+  transition: border-bottom 0.3s linear;
+  font-size: 18px; }
+  .search-input:focus {
+    border-bottom: 4px solid #FFCA28;
+    outline: 0; }
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL2Fzc2V0cy9jc3Mvc3R5bGVzLmNzcyIsInNvdXJjZVJvb3QiOiIifQ==*/
