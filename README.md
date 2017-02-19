@@ -8,6 +8,8 @@ $ npm install
 ```sh
 $ npm run start
 ```
+Перейти по адресу `http://localhost:8080/` в браузере.
+
 #### Автор :
 
 [Иващенко Кристина](https//vk.com/hey_roach)
